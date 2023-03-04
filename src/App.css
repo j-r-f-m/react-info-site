@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/*  */
+
+/*  */
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #282d35;
+}
+
 .nav-items {
   list-style: none;
   display: flex;
@@ -12,19 +23,48 @@
 
 .nav-items > li {
   margin: 10px;
+  color: #deebf8;
 }
 
 .nav-logo {
   width: 60px;
 }
 
+.nav-left {
+  display: flex;
+  color: #61dafb;
+}
+
 header {
-  box-shadow: 5px 5px 10px 2px lightgray;
+  background-color: #21222a;
 }
 
 .root {
   display: flex;
   flex-direction: column;
+}
+
+.main-content {
+  color: #ffffff;
+}
+
+.main-content > ul {
+  margin-left: 2rem;
+}
+
+.main-content > ul > li {
+  padding-block: 10px;
+}
+
+.main-content > ul > li::marker {
+  font-size: 1.2rem;
+  color: #61dafb;
+}
+
+.main-content-header {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
 footer {
